@@ -1,6 +1,8 @@
 import React from 'react';
 import TopBar from './TopBar';
 import ContentRowTop from './ContentRowTop';
+import LastMovieInDb from './LastMovieInDb';
+import GenresInDb from './GenresInDb'
 import Footer from './Footer';
 function ContentWrapper(){
     return (
@@ -11,6 +13,8 @@ function ContentWrapper(){
                 <div id="content">
                     <TopBar />
                     <ContentRowTop />
+                    <LastMovieInDb />
+                    <GenresInDb />
                     <Footer />
                 </div>
             </div>    
